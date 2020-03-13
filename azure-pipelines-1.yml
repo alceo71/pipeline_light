@@ -12,5 +12,5 @@ pool:
 steps:
 
 - script: |
-    /etc/init.d/mysql stop
+    sudo /etc/init.d/mysql stop
   displayName: 'Ferma il mysql locale'
