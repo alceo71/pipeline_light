@@ -14,3 +14,12 @@ steps:
 - script: |
     sudo /etc/init.d/mysql stop
   displayName: 'Ferma il mysql locale'
+
+- script: |
+    cd laradock
+    docker-compose up -d mysql
+  displayName: 'Provo a lanciare docker'
+
+- script: |
+    docker ps
+  displayName: elenco container
