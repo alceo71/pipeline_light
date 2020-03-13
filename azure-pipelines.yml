@@ -15,7 +15,7 @@ steps:
 
 - script: |
     cd laradock
-    docker-compose up -d workspace
+    docker-compose up -d mysql
   displayName: 'Provo a lanciare docker'
 
 - script: |
